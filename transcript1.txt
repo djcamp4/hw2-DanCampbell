@@ -1,0 +1,39 @@
+Project: Employee Self-Service HR Portal
+Attendees: Sandra (Project Manager), Dev (Lead Developer), Priya (HR Director), Tom (IT Security), Lisa (CFO)
+
+Sandra: Alright everyone, thanks for joining. Today we're kicking off the HR Self-Service Portal project. The goal is to let employees manage their own PTO, payroll info, and benefits online. Let's walk through the five main tasks and figure out who owns what.
+Sandra: First task — requirements gathering. Dev, I'd say you and Priya should be closely involved here.
+Priya: Agreed. HR knows what employees need. I'd say I'm responsible for gathering the business requirements, and Dev should be consulted so he understands the technical constraints early.
+Dev: Works for me. And Sandra, I'd assume you're accountable overall?
+Sandra: Yes, I'll be accountable for this one. Tom, Lisa — we'll keep you informed as requirements come in.
+Tom: Fine by me, though flag me early if anything touches employee data. I'll want to weigh in.
+Sandra: Good point. Tom, we'll move you to Consulted on requirements then. Lisa, Informed still okay?
+Lisa: Perfectly fine.
+
+Sandra: Task two — UI/UX design.
+Dev: That's my team's domain. We're Responsible. Priya, we'll need your input on the user flows — employees are your people, you know how they think.
+Priya: Happy to be Consulted. Just don't make it complicated — our staff aren't all tech savvy.
+Sandra: I'll stay Accountable. Tom and Lisa, Informed?
+Tom: Yes, no concerns there.
+Lisa: Informed works.
+
+Sandra: Task three — security and compliance review. Tom, this one's yours.
+Tom: Absolutely, I'm Responsible. This portal will touch payroll and personal data, so GDPR and SOC2 compliance need to be airtight. Priya, I'll need HR policy documents from you.
+Priya: Consider yourself Consulted then, and I'll make sure you get everything you need.
+Tom: And I'd say Sandra is Accountable, Dev should be Consulted since he'll need to implement whatever I flag.
+Dev: Agreed.
+Lisa: I'll want to be Consulted on this one actually — anything touching compliance has financial and legal implications.
+Sandra: Good call. Lisa moves to Consulted. I'll stay Accountable.
+
+Sandra: Task four — development and build.
+Dev: That's squarely on my team. We're Responsible. Sandra, you're Accountable?
+Sandra: Yes. Priya, we'll keep you Informed on progress. Tom, Consulted in case security issues come up mid-build?
+Tom: Yes, please loop me in if anything looks off.
+Lisa: Informed is fine for me here.
+
+Sandra: Last one — user acceptance testing, or UAT.
+Priya: HR should run this. Our staff will be the end users, so we're best placed to test it. I'll be Responsible.
+Dev: And I need to be Consulted — any bugs found need to come straight to me.
+Sandra: I'll be Accountable. Tom, Consulted in case security issues surface during testing?
+Tom: Yes.
+Lisa: Informed.

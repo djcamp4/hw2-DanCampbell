@@ -1,0 +1,39 @@
+Project: Company-Wide Multi-Factor Authentication Rollout
+Attendees: Natalie (IT Project Manager), Greg (IT Security Lead), Diana (HR Manager), Felix (Help Desk Manager), Olivier (COO)
+
+Natalie: Good morning. Today we kick off our MFA rollout. Every employee will need to use multi-factor authentication to access company systems. Security-driven project, but it touches everyone. Five tasks.
+
+Natalie: Task one — vendor selection for the MFA platform.
+Greg: Security is driving this. I'm Responsible for evaluating vendors — we're looking at Okta, Duo, and Microsoft Authenticator. Olivier, you'll be Accountable since this is a company-wide commitment.
+Olivier: Agreed. Natalie, where do you sit?
+Natalie: Consulted — I want to make sure whatever we pick can be rolled out practically. Felix, your help desk will be supporting users, so Consulted for you too.
+Felix: Yes please — some of these platforms create a nightmare for support tickets if they're not user-friendly.
+Diana: Informed for me.
+
+Natalie: Task two — policy and compliance documentation.
+Greg: I'll write the security policy. Responsible.
+Diana: HR needs to be Consulted — this policy affects all employees and needs to align with our acceptable use policy.
+Olivier: I'm Accountable. This is a governance document.
+Natalie: Consulted for me, Informed for Felix?
+Felix: Yes that's fine.
+
+Natalie: Task three — technical implementation.
+Greg: My team is Responsible. We'll configure the MFA platform, integrate it with Active Directory, and set up the enrollment flows.
+Natalie: I'm Accountable here from a project delivery standpoint.
+Felix: I need to be Consulted — I need to understand the enrollment flow so my team can support users.
+Olivier: Informed.
+Diana: Informed.
+
+Natalie: Task four — employee communications and training.
+Diana: This is HR's responsibility. We'll draft the communications and run training sessions. Responsible.
+Natalie: Accountable — it's a project milestone.
+Greg: Consulted — the technical accuracy of training materials needs my review.
+Felix: Consulted — help desk needs to preview training so we know what questions are coming.
+Olivier: Informed.
+
+Natalie: Last task — rollout and support.
+Felix: Help desk is Responsible. We'll manage the enrollment period, handle lockouts, and support users.
+Natalie: I'm Accountable.
+Greg: Consulted — anything that looks like a security incident comes to me immediately.
+Diana: Informed — I'll want numbers on adoption rate by department.
+Olivier: Informed.

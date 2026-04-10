@@ -1,0 +1,82 @@
+Project: Mobile Device Management (MDM) Implementation
+Attendees: Henry (IT Project Manager), Cara (IT Systems Admin), Brendan (Legal Counsel), Fatima (HR Director), Liam (CEO)
+
+Henry: Morning everyone. We're implementing an MDM solution to manage all company-owned mobile devices — iPhones, iPads, and laptops. This lets IT remotely wipe, configure, and secure devices. Five tasks to get through. Let's figure out who owns what.
+
+Henry: Task one — policy and legal review. Brendan, I'd assume this starts with Legal?
+Brendan: Broadly yes, though I want to be careful about how much my team takes on right now. We're stretched thin with the acquisition paperwork. I can be involved but I'm not sure I can fully own it.
+Fatima: HR has done policy work before. I'm happy to take a first pass at a draft.
+Brendan: That works, though anything with legal implications needs to come back through me before it goes anywhere.
+Henry: So Fatima drafts and Brendan reviews?
+Brendan: More or less. Though "drafts" is a strong word — I'd want Legal to at least frame the structure.
+Fatima: I thought you just said you were stretched?
+Brendan: I am, but I don't want HR writing legal policy without a legal framework to work from.
+Liam: Can we just say both teams are jointly responsible?
+Henry: The RACI framework really works best with one Responsible owner per task — otherwise accountability gets murky.
+Liam: Right, right. Well sort it out between you two. What's next?
+Henry: (making a note) I'll put a flag on task one and we'll come back to it. Task two — vendor and platform selection.
+
+Henry: Task two — vendor and platform selection. Cara, this feels like IT territory?
+Cara: Definitely. I've already been looking at Jamf and Intune. I can run the evaluation.
+Henry: Great, so you're Responsible and I'm Accountable?
+Cara: Actually Henry, shouldn't you be Responsible here too? You have vendor relationships I don't have access to.
+Henry: I can help, but I was thinking I'd stay at the project management level across all tasks rather than getting into the weeds on any one of them.
+Cara: Fair, but this one specifically — the vendor conversations are going to need someone with budget authority in the room.
+Henry: That would be Liam or Derek, not me really.
+Liam: I don't need to be in vendor meetings. That's what IT is for.
+Brendan: Someone needs to review the contracts. Vendor agreements for MDM platforms can be tricky — data processing clauses, liability terms.
+Cara: So Legal is involved too?
+Brendan: I'd say Consulted at minimum. Possibly more depending on what the contracts look like.
+Henry: Okay so we have Cara doing the evaluation, Henry possibly co-owning, Brendan on contracts, and Liam... Informed?
+Liam: I'd like to be Consulted actually. This is a significant platform decision.
+Henry: Noted. I'll flag this one too and we'll firm it up. Task three.
+
+Henry: Task three — technical configuration and setup. Cara, your team again?
+Cara: In theory yes. But I want to flag that my team is currently two people including me, and we're already managing the server refresh project. I'm not saying no, I'm just saying capacity is a real concern.
+Henry: Do you need additional resource?
+Cara: Probably. I've been meaning to raise that. Could we bring in a contractor?
+Henry: That's a conversation for after this meeting — budget implications. But for the purposes of the RACI, who's Responsible?
+Cara: I guess me, conditionally.
+Henry: Conditionally isn't really how a RACI works.
+Cara: Then provisionally me, pending the resource conversation.
+Fatima: Could any of this be outsourced to the MDM vendor themselves? Some of them offer implementation services.
+Cara: Some do, yes. That might actually be worth exploring.
+Brendan: If we're outsourcing configuration, that changes the legal picture again — data access by a third party.
+Henry: Okay, so task three is also flagged. Task four.
+
+Henry: Task four — employee communication and consent. Fatima, HR typically runs this kind of thing.
+Fatima: Agreed, and I'm happy to be involved. But I want to push back a little on HR being fully Responsible here. The reason employees are receiving this communication is a technical and legal decision. If staff push back — and some will, especially about the remote wipe capability — I don't want HR to be the ones defending a decision we didn't make.
+Brendan: That's a fair point. The messaging around remote wipe in particular needs to be very precise. If we overcommunicate the capability we'll get panic. If we undercommunicate it we'll have legal exposure.
+Henry: So who writes the communication?
+Fatima: HR can write it, but it needs sign-off from Legal before it goes out.
+Brendan: Agreed. And frankly someone from IT should review it too — I don't want Legal or HR accidentally misrepresenting what the system can and can't do.
+Cara: Happy to review.
+Liam: I may want to put a personal note in from me as CEO. Given the sensitivity.
+Henry: That's great Liam, but for the RACI — who's Responsible for producing and sending the communication?
+Fatima: HR will coordinate it.
+Brendan: With Legal review.
+Cara: And IT review.
+Henry: So everyone is involved and nobody is specifically Responsible.
+Fatima: We're all Responsible.
+Henry: (sighing quietly) That's not quite how it works but let's keep going. Task five.
+
+Henry: Task five — device enrollment and go-live. This is the actual rollout — getting every device enrolled in the MDM platform.
+Cara: IT should run this.
+Henry: Great — Responsible?
+Cara: Yes, assuming the resource question from task three is sorted. If I'm doing configuration and rollout with two people I'll need to phase it very carefully.
+Henry: Understood. And Accountable — I was going to take that.
+Liam: I'd actually like to be Accountable for go-live. This is a company-wide change that touches every employee. If something goes wrong I want it to be clear that it has executive ownership.
+Henry: I appreciate that Liam, but operationally it's cleaner if the project manager is Accountable for delivery milestones.
+Liam: I'm not trying to step on your toes Henry. I just think for something this visible, having the CEO be Accountable sends the right signal internally.
+Henry: What does Accountable mean to you in this context?
+Liam: That I'm the one answering for it if it goes sideways.
+Henry: And to me it means you're the decision-maker on day-to-day escalations during rollout. Are you available for that?
+Liam: (pausing) Maybe not day-to-day, no.
+Henry: That's what I thought. So perhaps you're Consulted and I'm Accountable?
+Liam: I'm comfortable with that framing but I want it noted that I have executive oversight.
+Brendan: What does that mean in RACI terms?
+Liam: I don't know, that's why I'm asking you all.
+Fatima: Could we add an "E for Executive Oversight" column?
+Henry: That's not a standard RACI column.
+Fatima: Maybe it should be.
+Henry: (long pause) Let me just write down what we have and we'll sort the rest offline.

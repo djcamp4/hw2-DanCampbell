@@ -29,7 +29,7 @@ RACI Definitions:
 Rules:
 1. Each task must have exactly ONE (A) Accountable. If the transcript assigns two people as Accountable, choose the more senior stakeholder or the one with final decision authority.
 2. A person can be both Responsible and another role is unusual — only assign R if they do the hands-on work.
-3. Only include stakeholders who are explicitly mentioned in relation to each task.
+3. Every stakeholder must have an assignment for every task — no blanks allowed. If a stakeholder's role for a task was not explicitly stated or agreed upon in the transcript, you MUST assign "TBD". Do NOT infer, guess, or assume roles — only use R, A, C, or I when the transcript clearly states it.
 4. Extract the project name from the transcript.
 
 Return ONLY a valid JSON object — no markdown, no explanation — with this exact structure:
@@ -163,7 +163,7 @@ def format_raci_table(raci_data):
         task_name = task_item["task"]
         assignments = task_item.get("assignments", {})
         row = f"  {task_name:<{task_col_w}} | " + " | ".join(
-            f"{assignments.get(s, ''):^{stake_col_w}}" for s in stakeholders
+            f"{assignments.get(s, 'TBD'):^{stake_col_w}}" for s in stakeholders
         )
         lines.append(row)
 
