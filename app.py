@@ -53,13 +53,31 @@ Use "Name (Role)" format for stakeholders exactly as they appear in the transcri
 """
 
 
+def pick_transcript():
+    """Interactively list .txt files and let the user pick one."""
+    import glob
+    files = sorted(glob.glob("*.txt"))
+    if not files:
+        print("No .txt files found in the current directory.", file=sys.stderr)
+        sys.exit(1)
+    print("\nAvailable transcripts:")
+    for i, f in enumerate(files, 1):
+        print(f"  {i}. {f}")
+    while True:
+        choice = input("\nEnter number to select a transcript: ").strip()
+        if choice.isdigit() and 1 <= int(choice) <= len(files):
+            return files[int(choice) - 1]
+        print("Invalid choice, please try again.")
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Generate a RACI matrix from a project kickoff transcript using Claude AI"
     )
     parser.add_argument(
         "transcript",
-        help="Path to the transcript text file"
+        nargs="?",
+        help="Path to the transcript text file (omit to pick interactively)"
     )
     parser.add_argument(
         "-o", "--output",
@@ -74,7 +92,10 @@ def parse_args():
         default="claude-opus-4-6",
         help="Claude model to use (default: claude-opus-4-6)"
     )
-    return parser.parse_args()
+    args = parser.parse_args()
+    if not args.transcript:
+        args.transcript = pick_transcript()
+    return args
 
 
 def load_file(path, label="file"):

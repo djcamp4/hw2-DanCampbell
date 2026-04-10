@@ -1,0 +1,39 @@
+Project: Cloud Migration of On-Premise Servers
+Attendees: Marcus (Project Manager), Jen (Infrastructure Lead), Carlos (CTO), Aisha (Finance Manager), Ray (IT Security)
+
+Marcus: Welcome everyone. We're migrating our on-premise servers to AWS. This is a big one — downtime risk is real, so let's be very clear about ownership. Five tasks to cover.
+
+Marcus: Task one — infrastructure assessment. Jen, I'd assume this is your team?
+Jen: Yes, we're Responsible. We'll audit everything currently on-prem — servers, storage, dependencies. Carlos, I'd want you Consulted. Some of these architectural decisions will need your sign-off directionally.
+Carlos: Agreed. And I'll be Accountable on this task — infrastructure strategy is ultimately my call.
+Marcus: I'll stay Informed then, and Aisha — Informed for you too at this stage?
+Aisha: Yes, though flag me if the assessment uncovers cost surprises.
+Ray: I'd like to be Consulted — I need to know what data lives where before we move anything.
+
+Marcus: Task two — cloud architecture design.
+Carlos: This is a joint effort. Jen is Responsible for the design work, I'll be Accountable.
+Jen: I'd want Ray Consulted early — security architecture needs to be baked in, not bolted on.
+Ray: Strongly agree.
+Aisha: I'll need to be Consulted here too. Cloud architecture choices have direct cost implications — reserved instances, storage tiers, that kind of thing.
+Marcus: Informed for me on this one then.
+
+Marcus: Task three — data migration.
+Jen: My team again — Responsible. This is the riskiest task. We're talking about moving live data.
+Ray: I need to be Consulted throughout. Encryption in transit, access controls, audit logs — all of that needs oversight.
+Carlos: I'm Accountable. Marcus, Informed?
+Marcus: Yes. Aisha?
+Aisha: Informed is fine.
+
+Marcus: Task four — testing and validation post-migration.
+Jen: Responsible again. We'll run performance tests, failover tests, and make sure everything behaves as expected.
+Marcus: I'll be Accountable here — this is a project delivery milestone.
+Carlos: Consulted — I want visibility on test results before we declare success.
+Ray: Consulted — security validation is part of this.
+Aisha: Informed.
+
+Marcus: Final task — cutover and go-live.
+Jen: Responsible for executing the cutover.
+Carlos: I'm Accountable — I'll be the one authorizing the final switch.
+Ray: Consulted — I need to be on call during cutover in case security issues arise.
+Aisha: Informed. Though please tell me when it's done — I'll need to start tracking cloud spend from day one.
+Marcus: I'll be Consulted — I want to be in the room when this happens.

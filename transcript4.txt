@@ -1,0 +1,47 @@
+Project: Business Intelligence Dashboard Implementation
+Attendees: Paula (Project Manager), Ravi (Data Engineer), Simone (Head of Sales), Derek (CFO), Yuki (IT Manager)
+
+Paula: Thanks for coming. We're building a company-wide BI dashboard so leadership can see sales, finance, and ops data in one place. Five tasks. Let's figure out ownership.
+
+Paula: Task one — data source mapping.
+Ravi: I'll be Responsible. I need to catalogue every data source we're pulling from — Salesforce, the ERP, the data warehouse.
+Simone: Consulted for sales data — I know where the skeletons are in our Salesforce setup.
+Derek: Consulted for finance data — same reason.
+Paula: I'll be Accountable. Yuki, Informed?
+Yuki: Yes, though flag me if any data sources require new infrastructure.
+
+Paula: Task two — dashboard design and requirements.
+Simone: Sales should drive this. We're the primary users. Responsible.
+Derek: Finance co-owns this — Responsible alongside Simone?
+Paula: Let's keep one Responsible per task. Simone, you lead it, Derek you're Consulted.
+Derek: Fair.
+Ravi: I need to be Consulted — I can tell you what's actually feasible from the data we have.
+Paula: I'll be Accountable. Yuki, Informed.
+
+Paula: Task three — data pipeline development.
+Ravi: Fully my team. Responsible. This is the ETL work — extract, transform, load.
+Yuki: I need to be Consulted — pipelines run on infrastructure I manage.
+Paula: Accountable. Simone and Derek, Informed during this phase.
+Simone: Fine, as long as we see progress demos.
+Paula: We'll schedule those.
+
+Paula: Task four — dashboard build and visualization.
+Ravi: Still my team — Responsible. We'll be building in Tableau.
+Simone: Consulted — I want to review visualizations as they're built, not at the end.
+Derek: Same — Consulted.
+Paula: And I'll be Accountable on this one as well. Yuki, Informed.
+Derek: Actually Paula, I'd like to be Accountable for this task. The dashboard is ultimately a financial reporting tool. If the numbers look wrong to our board, that falls on Finance — not IT project management.
+Paula: I appreciate that Derek, but from a delivery standpoint, Accountable should sit with the project manager. That's how we've structured every other task here.
+Derek: I understand the logic, but this one's different. The outputs of this task are going directly to the executive team. I need to be the one signing off on it, not just being Consulted.
+Simone: I'd actually agree with Derek on this one. The dashboard is a business tool, not an IT deliverable. Having Finance be Accountable makes it clear the business owns the outcome.
+Paula: I hear you both, but if Derek is Accountable and something goes wrong with the build timeline or a technical decision, who does Ravi escalate to?
+Derek: Me. I'm fine with that.
+Paula: (pausing) Okay — I don't think we're going to resolve this right now and I don't want it to derail the rest of the meeting. Let's leave a flag on task four and keep moving. Derek, can we find 20 minutes after this to work it out?
+Derek: Sure.
+Paula: Good. Moving on.
+
+Paula: Task five — UAT and stakeholder sign-off.
+Simone: Sales will test this rigorously. Responsible.
+Derek: Finance too — joint Responsible since we're the two primary stakeholder groups?
+Paula: In this case yes. I'll be Accountable. Ravi, Consulted for bug fixing. Yuki, Informed.
+Ravi: Works for me.
