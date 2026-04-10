@@ -1,6 +1,7 @@
 # Evaluation Set
 
 Transcript 1: Normal Case
+
 What it should do:  Create a RASCI Matrix from the provided transcript that shows stakeholders, tasks, and assignments.
 
 Project: Employee Self-Service HR Portal
@@ -45,6 +46,7 @@ Lisa: Informed.
 *****
 
 Transcript 2: Normal Case
+
 What it should do:  Create a RASCI Matrix from the provided transcript that shows stakeholders, tasks, and assignments.
 
 Project: Cloud Migration of On-Premise Servers
@@ -90,6 +92,7 @@ Marcus: I'll be Consulted — I want to be in the room when this happens.
 ******
 
 Transcript 3: Normal Case
+
 What it should do:  Create a RASCI Matrix from the provided transcript that shows stakeholders, tasks, and assignments.
 
 Project: Company-Wide Multi-Factor Authentication Rollout
@@ -134,6 +137,7 @@ Olivier: Informed.
 
 ****
 Transcript 4: Edge Case
+
 What it should do:  Create a RASCI Matrix from the provided transcript.  However, this transcript has 2 people assigned to a task and this is not allowed by the rules, but it is often the case in ambiguous kickoff meetings.  Hopefully it assigns both, or neither, so that it can be reviewed later.
 
 Project: Business Intelligence Dashboard Implementation
@@ -187,6 +191,7 @@ Ravi: Works for me.
 ****
 
 Transcript 5: Set to Fail/hallucinate
+
 What it should do:  There are no clear assignments in this conversation.  They're discussed but not clear.  I assume it will have ot make up the data to complete the requirements for the matrix.
 
 Project: Mobile Device Management (MDM) Implementation
