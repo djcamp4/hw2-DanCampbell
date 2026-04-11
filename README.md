@@ -1,4 +1,6 @@
 # hw2-DanCampbell
+Video Link:
+
 Chosen Workflow:
 The workflow I have chosen is building a RACI matrix. This is a document that tracks project tasks and how project stakeholders will interact with those tasks--determining responsibility, accountability, as well as who needs to be consulted and kept informed.
 
